@@ -3,4 +3,6 @@ album_ratings = [10, 9, 8, 7, 6]
 current_artist = [true, false, true, true]
 avg_ticket_price = [65.7, 89.3, 23.7, 45.1]
 
-puts current_artist
+# .pop will remove and print the last value of an array
+fav_artists.pop
+
