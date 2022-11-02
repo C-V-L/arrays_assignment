@@ -15,3 +15,14 @@ print album_ratings
 # .push will push specified values to the end of an array
 avg_ticket_price.push(99.9,101.2)
 print avg_ticket_price
+
+# index position refers the the position of a specific value within an array. Counting begins at 0. 
+# to see the 2nd value of an array we will call the array[1]
+p fav_artists[1]
+
+# to see the 3rd and 4th values we will use...
+p album_ratings[2,2]
+# the first 2 indicates the position to begin listing, the second 2 indicates how many values to list
+
+# .max will print the value within the array with the highest value
+print avg_ticket_price.max
